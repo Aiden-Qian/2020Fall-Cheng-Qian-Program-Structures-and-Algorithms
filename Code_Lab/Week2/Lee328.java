@@ -1,4 +1,4 @@
-public class OddEvenList {
+public class Lee328 {
     public ListNode oddevenlist(ListNode head) {
         int i = 1;
         ListNode cur = null, oddHead = head, evenHead = null, oddCur = oddHead, evenCur = null;
