@@ -1,4 +1,4 @@
-public Class DeleteNodes{
+public Class Lee1474{
   public ListNode deleteNodes(ListNode head, int m, int n) {
         ListNode pointer = new ListNode(0);
         pointer.next = head;
