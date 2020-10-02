@@ -1,0 +1,17 @@
+public class Lee844{
+  public boolean backspaceCompare2(String S, String T) {
+    return rebuildUseStack(S).equals(rebuildUseStack(T));
+}
+
+public String rebuildUseStack(String str) {
+    Stack<Character> stack = new Stack<Character>();
+    for (char ch : str.toCharArray()) {
+        if (ch != '#') {
+            stack.push(ch);
+        } else if (!stack.isEmpty()) {
+            stack.pop();
+        }
+    }
+    return String.valueOf(stack);
+}
+}
