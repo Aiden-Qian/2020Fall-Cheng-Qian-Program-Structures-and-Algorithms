@@ -29,7 +29,7 @@ public class Lee25 {
             pre.next = cur;
             cur = next;
         }
-        head.next=end;//end其实是下一个要反转的头结点
+        head.next=end;
         return head;
     }
 }
